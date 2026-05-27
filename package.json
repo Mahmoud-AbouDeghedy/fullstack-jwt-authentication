@@ -1,0 +1,22 @@
+{
+	"name": "authentication-app",
+	"version": "1.0.0",
+	"description": "Full-stack authentication application with React frontend and NestJS backend",
+	"private": true,
+	"scripts": {
+		"install:all": "npm run install:backend && npm run install:frontend",
+		"install:backend": "cd backend && npm install",
+		"install:frontend": "cd frontend && npm install",
+		"start:backend": "cd backend && npm run start:dev",
+		"start:frontend": "cd frontend && npm start",
+		"build:backend": "cd backend && npm run build",
+		"build:frontend": "cd frontend && npm run build",
+		"test:backend": "cd backend && npm run test",
+		"test:frontend": "cd frontend && npm run test"
+	},
+	"engines": {
+		"node": ">=16"
+	},
+	"author": "",
+	"license": "MIT"
+}
